@@ -126,6 +126,10 @@
   padding-bottom: 5px;
 }
 
+.FormField__Link:hover {
+  text-decoration: none;
+  color: #199087;
+}
 .FormField__CheckboxLabel {
   color: #646f7d;
   font-size: 0.9em;
