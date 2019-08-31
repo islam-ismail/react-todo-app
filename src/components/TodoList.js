@@ -1,12 +1,12 @@
-import React, { Component } from "react";
-import TodoItem from "./TodoItem";
+import React, { Component } from 'react';
+import TodoItem from './TodoItem';
 
 class TodoList extends Component {
   render() {
     const { items, clearList, handleDelete, handleEdit } = this.props;
     return (
       <ul className="list-group my-5">
-        <h3 className="text-capitalize text-center">Members List</h3>
+        <h3 className="text-capitalize text-center text-white">Todo List</h3>
         {items.map(item => {
           return (
             <TodoItem

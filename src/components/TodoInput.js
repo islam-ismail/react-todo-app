@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class TodoInput extends Component {
   render() {
@@ -15,7 +15,7 @@ class TodoInput extends Component {
             <input
               type="text"
               className="form-control text-capitalize"
-              placeholder="insert your member name"
+              placeholder="insert your todo"
               value={item}
               onChange={handleChange}
               required
@@ -25,11 +25,11 @@ class TodoInput extends Component {
             type="submit"
             className={
               editItem
-                ? "btn btn-block btn-success mt-3"
-                : "btn btn-block btn-primary mt-3"
+                ? 'btn btn-block btn-success mt-3'
+                : 'btn btn-block btn-primary mt-3'
             }
           >
-            {editItem ? "Edit Member" : "Add Member"}
+            {editItem ? 'Edit Todo' : 'Add Todo'}
           </button>
         </form>
       </div>
